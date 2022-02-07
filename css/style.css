@@ -25,9 +25,11 @@ background-color: gray;
 	border-width: 1px;
 	background-color: white;
 }
+
 .all{
 background-color: gray;
 }
+
 #left {
 
 	height: 500px;
@@ -53,11 +55,6 @@ background-color: gray;
 	padding-bottom: 250px;
 }
 
-#rightie {
-	height: 350px;
-	width: 350px;
-	float: right;
-}
 
 hr {
 	clear: both;
@@ -67,6 +64,7 @@ hr {
 	height:2px;
 	background:blue;
 }
+
 #video {
 text-align:center;
 }
@@ -76,7 +74,43 @@ text-align:center;
 	height: 350px;
 	margin-bottom: 20px;
 }
+
+#specialer {
+	width: 700px;
+	height: 500px;
+	margin-bottom: 20px;
+}
+
 #parts {
 	width: 116;
 	height: 350px;
+}
+
+li {
+	display: inline;
+}
+
+ul a:hover {
+	background-color: red;
+	transform: skew(30deg);
+}
+
+.icons {
+	display: inline;
+}
+
+.sprite {
+	height: 33px;
+	width: 33px;
+}
+
+#nsize {
+	height: 350px;
+	width: 350px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	background-color: blue;
+	transform: skew(-30deg);
 }
